@@ -27,7 +27,7 @@ age = input("Enter age: ")
 cnumber = input("Enter contact number: ")
 course = input("Enter course: ")
 
-f=open("TFA1\students.txt", "a+")
+f=open("TFA2\students.txt", "a+")
 f.write("Last name: " + lname + "\n")
 f.write("First name: " + fname + "\n")
 f.write("Age: " + age + "\n")
@@ -37,3 +37,6 @@ f.close()
 
 print("Student information has been saved to 'students.txt'.")
 '''
+
+#3.4
+f=open("TFA2\students.txt")
