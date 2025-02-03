@@ -20,3 +20,13 @@ print("Length of Full name: ", len(fname + " " + lname))
 '''
 
 #3.3
+lname = input("Enter last name: ")
+fname = input("Enter first name: ")
+age = input("Enter age: ")
+cnumber = input("Enter contact number: ")
+course = input("Enter course: ")
+
+f=open("C:\students.txt", "a+")
+f.write("Last Name: ", lname)
+line = f.readline()
+f.close()
