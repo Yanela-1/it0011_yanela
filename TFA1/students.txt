@@ -1,0 +1,5 @@
+Last name: Yanela
+First name: Rye
+Age: 19
+Contact Number: 091234567890
+Course: BSIT-WMA

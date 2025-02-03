@@ -20,6 +20,7 @@ print("Length of Full name: ", len(fname + " " + lname))
 '''
 
 #3.3
+'''
 lname = input("Enter last name: ")
 fname = input("Enter first name: ")
 age = input("Enter age: ")
@@ -35,3 +36,4 @@ f.write("Course: " + course + "\n")
 f.close()
 
 print("Student information has been saved to 'students.txt'.")
+'''
